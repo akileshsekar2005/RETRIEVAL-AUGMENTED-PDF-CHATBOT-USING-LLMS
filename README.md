@@ -1,4 +1,4 @@
-# 📚 Chat with Multiple PDFs
+# 📚 CHAT WITH MULTIPLE PDFs
 
 A RAG (Retrieval-Augmented Generation) based chatbot that allows you to upload multiple PDF documents and ask questions about them in natural language.
 
