@@ -2,10 +2,10 @@
 
 A RAG (Retrieval-Augmented Generation) based chatbot that allows you to upload multiple PDF documents and ask questions about them in natural language.
 
-## 🚀 Live Demo
+##  LIVE DEMO
 [Click here to Try the App](https://multi-pdf-chatbot-akilesh.streamlit.app/)
 
-## 🛠️ Tech Stack
+## TECH STACK USED
 
 | Component | Technology |
 |---|---|
@@ -17,19 +17,19 @@ A RAG (Retrieval-Augmented Generation) based chatbot that allows you to upload m
 | Framework | LangChain |
 | Language | Python 3.11 |
 
-## ⚙️ How It Works
+## HOW IT WORKS?
 
 1. **Upload PDFs** — Upload one or more PDF files from the sidebar
 2. **Processing** — Text is extracted, split into chunks, and stored as vectors in FAISS
 3. **Ask Questions** — Ask anything about your documents in the chat input
 4. **Get Answers** — The app retrieves relevant chunks and generates answers using LLaMA 3.1
 
-## 🏗️ Architecture
+## ARCHITECTURE
 PDF Upload → Text Extraction → Text Chunking → Vector Embeddings → FAISS Store
 ↓
 User Question → Query Embedding → Similarity Search → Context Retrieval → LLM → Answer
 
-## 🐛 Challenges Faced & Fixes
+## WHAT ARE ALL THE CHALLENGES FACES AND FIXED?
 
 ### 1. Python Version Conflict
 - **Problem:** Project was running on Python 3.14 which caused pydantic v1 compatibility issues with LangChain
@@ -59,7 +59,7 @@ User Question → Query Embedding → Similarity Search → Context Retrieval �
 - **Problem:** `IndexError: list index out of range` when uploading image-based or scanned PDFs
 - **Fix:** Added a guard in `get_vectorstore()` to raise a friendly error if no text is extracted
 
-## 📦 Complete Installation Steps
+## COMPLETE INSTALLATION STEPS
 
 ### Step 1 — Install Python 3.11
 - Download Python 3.11 from [python.org](https://python.org)
@@ -109,7 +109,7 @@ Create `app.py` with the full application code (see below).
 streamlit run app.py
 ```
 
-## 💻 Full Application Code
+## FULL APPLICATION CODE
 
 ```python
 import streamlit as st
@@ -271,7 +271,7 @@ if __name__ == "__main__":
     main()
 ```
 
-## 🚀 Deployment Steps (Streamlit Cloud)
+## DEPLOYMENT STEPS, AS I USED STREAMLIT CLOUD
 
 ### Step 1 — Install Git
 - Download from [git-scm.com](https://git-scm.com)
@@ -327,7 +327,7 @@ GROQ_API_KEY = "your_groq_api_key_here"
 Your app will be live at:
 https://yourappname.streamlit.app
 
-## ✨ Features
+## FEATURES
 
 - 📄 Upload multiple PDFs at once
 - 💬 Chat with your documents naturally
