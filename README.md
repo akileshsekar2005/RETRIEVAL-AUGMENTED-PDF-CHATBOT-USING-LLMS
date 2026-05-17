@@ -3,7 +3,7 @@
 A RAG (Retrieval-Augmented Generation) based chatbot that allows you to upload multiple PDF documents and ask questions about them in natural language.
 
 ## 🚀 Live Demo
-[Click here to try the app](https://pdf-chat-akilesh.streamlit.app)
+[Click here to Try the App](https://multi-pdf-chatbot-akilesh.streamlit.app/)
 
 ## 🛠️ Tech Stack
 
