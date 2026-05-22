@@ -168,27 +168,27 @@ https://yourappname.streamlit.app
 
 ## FEATURES
 
-- 📄 Upload multiple PDFs at once
-- 💬 Chat with your documents naturally
-- 🕘 Recent chat history in sidebar
-- 🆕 Start new chat sessions
-- ⚡ Fast responses using Groq
-- 🔒 Secure API key handling
-- ⚠️ Friendly error for scanned/image PDFs
+-  Upload multiple PDFs at once
+-  Chat with your documents naturally
+-  Recent chat history in sidebar
+-  Start new chat sessions
+-  Fast responses using Groq
+-  Secure API key handling
+-  Friendly error for scanned/image PDFs
 
-## 🔑 API Keys Required
+##  API Keys Required
 
 - **Groq API Key** — Get it free from [console.groq.com](https://console.groq.com)
 
-## 📊 Models Used
+##  Models Used
 
 - **Embeddings:** `sentence-transformers/all-MiniLM-L6-v2`
 - **LLM:** `llama-3.1-8b-instant` via Groq
 
-## 👨‍💻 Developed By
+##  Developed By
 
-**Akilesh** — St. Joseph's College of Engineering, Chennai
+**Akilesh** — Shiv Nadar University, Chennai
 
-## 📄 License
+##  License
 
 MIT License
